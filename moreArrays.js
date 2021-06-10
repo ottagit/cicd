@@ -18,12 +18,17 @@ let donPerson = {
   gender: gender,
   nationality: nationality
   */
-  // The above ca be reduced to...
+  // The above can be reduced to...
   myname, age, gender, nationality
 };
 // Using the dot notation you can create new properties for an existing object
 //donPerson.name = name;
 //console.log(donPerson);
 // Add donPerson to the persons array
+//persons.push(donPerson);
+//console.log(persons);
+// add property occupation to donPerson object
+donPerson.occupation = "Employed";
+console.log(donPerson);
 persons.push(donPerson);
 console.log(persons);
